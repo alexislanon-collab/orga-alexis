@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orga Alexis</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Orga Alexis">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAC9UlEQVR42u3dIW5VURCAYXpSh8M3QeBZBpIaJJZFYZGYIlkGa8DjcAgUjjT3vTdzZib3+xfwOvf2y5y8Js25e3jz+oX0v5ZXIDgEh+AQHIJDcAgOwSE4BIcEh+AQHIJDcAgOwSE4BIfgkP51v+FnfH14WfiEH37+zvvwV+/eFj7ar+8/Uj//Lu9fE2pNpCqpNbFNyTqJjMCRusnIGyl+czRkEbVCGrJIXSHrbDKuHrK/jPAh19lkXDfqCBnho/oqq3wcg9bGpQMPWhuxA69zyjg+9jgZgWM7VgSHSnAMPVOODD/0TIka3uYQHIJDcAgOwSE4BIfgEByCQ4JDcAgOwSE4BIfgEByCQ3BIcAgOwSE4BIfgEByCQ3AIDgkOwSE4BIfgEByCQ3AIDsEhOG4p9Ya97J4fPvuGvdRuH97mEByqwjH0ZDky9tCTJWTstfNFj5Mx1EfUwI4VbcExaHlcOuqg5RE46qp96SNkDPIRO2TWXfY9r28Ksdvz+qYMu6vzr6HnSA1XSNJIWZujzxZJZVq7RbKZ7sAh31YEh+CQ4BAcgkNwCA6Vdr/hZ3z++KfwCT99SXzG94+PhY/27ekp9fMT/0JaayJVSa2JbUrWSWQEjtRNRt5I8ZujIYuoFdKQReoKWWeTcfWQ/WWED7nOJuO6UUfICB/VV1nl4xi0Ni4deNDaiB14nVPG8bHHyQgc27EiOFSCY+iZcmT4oWdK1PA2h+AQHIJDcAgOwSE4BIfgEBwSHIJDcAgOwSE4BIfgEByCQ4JDcAgOwSE4BIfgEByCQ3BIcAgOwSE4BIfgEByCQ3AIDsFxS6k37GX3/PDZN+yldvvwNofgUBWOoSfLkbGHniwhY6+dL3qcjKE+ogZ2rGgLjkHL49JRBy2PwFFX7UsfIWOQj9ghs+6y73l9U4jdntc3ZdhdnX8NPUdquEKSRsraHH22SCrT2i2SzXQHDvm2IjgEhwSH4BAcgkNwCA7BITgEh+AQHBIcgkNwCA7BITg0pL/Y4tGNshjgkgAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAC9UlEQVR42u3dIW5VURCAYXpSh8M3QeBZBpIaJJZFYZGYIlkGa8DjcAgUjjT3vTdzZib3+xfwOvf2y5y8Js25e3jz+oX0v5ZXIDgEh+AQHIJDcAgOwSE4BIcEh+AQHIJDcAgOwSE4BIfgkP51v+FnfH14WfiEH37+zvvwV+/eFj7ar+8/Uj//Lu9fE2pNpCqpNbFNyTqJjMCRusnIGyl+czRkEbVCGrJIXSHrbDKuHrK/jPAh19lkXDfqCBnho/oqq3wcg9bGpQMPWhuxA69zyjg+9jgZgWM7VgSHSnAMPVOODD/0TIka3uYQHIJDcAgOwSE4BIfgEByCQ4JDcAgOwSE4BIfgEByCQ3BIcAgOwSE4BIfgEByCQ3AIDgkOwSE4BIfgEByCQ3AIDsEhOG4p9Ya97J4fPvuGvdRuH97mEByqwjH0ZDky9tCTJWTstfNFj5Mx1EfUwI4VbcExaHlcOuqg5RE46qp96SNkDPIRO2TWXfY9r28Ksdvz+qYMu6vzr6HnSA1XSNJIWZujzxZJZVq7RbKZ7sAh31YEh+CQ4BAcgkNwCA6Vdr/hZ3z++KfwCT99SXzG94+PhY/27ekp9fMT/0JaayJVSa2JbUrWSWQEjtRNRt5I8ZujIYuoFdKQReoKWWeTcfWQ/WWED7nOJuO6UUfICB/VV1nl4xi0Ni4deNDaiB14nVPG8bHHyQgc27EiOFSCY+iZcmT4oWdK1PA2h+AQHIJDcAgOwSE4BIfgEBwSHIJDcAgOwSE4BIfgEByCQ4JDcAgOwSE4BIfgEByCQ3BIcAgOwSE4BIfgEByCQ3AIDsFxS6k37GX3/PDZN+yldvvwNofgUBWOoSfLkbGHniwhY6+dL3qcjKE+ogZ2rGgLjkHL49JRBy2PwFFX7UsfIWOQj9ghs+6y73l9U4jdntc3ZdhdnX8NPUdquEKSRsraHH22SCrT2i2SzXQHDvm2IjgEhwSH4BAcgkNwCA7BITgEh+AQHBIcgkNwCA7BITg0pL/Y4tGNshjgkgAAAABJRU5ErkJggg==">
+<style>:root{padding-top:env(safe-area-inset-top,0px)}body{margin:0}[hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout : carte 2×2 en tête (vue d'ensemble), puis listes par quadrant ; saisie en bas d'écran */
+:root{
+  --bg:#f3f4f1; --surface:#ffffff; --fg:#1d2420; --muted:#66706a; --line:#d9ddd7;
+  --q1:#c8412b; --q1-bg:#fbe9e5;   /* Faire */
+  --q2:#2f6b4f; --q2-bg:#e3f1e9;   /* Planifier */
+  --q3:#b7811c; --q3-bg:#fbf1dc;   /* Déléguer */
+  --q4:#6c7470; --q4-bg:#eceeec;   /* Éliminer */
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141816; --surface:#1d2320; --fg:#e8ece9; --muted:#9aa49e; --line:#2f3732;
+  --q1:#f07a63; --q1-bg:#3a201b; --q2:#6fc49a; --q2-bg:#1b3328; --q3:#e6b452; --q3-bg:#382c14; --q4:#a3aca7; --q4-bg:#262b28;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141816; --surface:#1d2320; --fg:#e8ece9; --muted:#9aa49e; --line:#2f3732;
+  --q1:#f07a63; --q1-bg:#3a201b; --q2:#6fc49a; --q2-bg:#1b3328; --q3:#e6b452; --q3-bg:#382c14; --q4:#a3aca7; --q4-bg:#262b28;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 140px}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--display);font-weight:800;font-size:1.55rem;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.date{color:var(--muted);font-size:.85rem;text-transform:capitalize}
+
+/* Carte 2x2 */
+.map{display:grid;grid-template-columns:auto 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:6px}
+.axis{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;align-items:center;justify-content:center}
+.axis.v{writing-mode:vertical-rl;transform:rotate(180deg)}
+.cell{border:0;border-radius:10px;padding:10px 12px;text-align:left;cursor:pointer;font:inherit;color:var(--fg);display:flex;flex-direction:column;gap:2px;min-height:78px}
+.cell:focus-visible,.btn:focus-visible,.task button:focus-visible,input:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.cell .n{font-family:var(--display);font-weight:800;font-size:1.7rem;line-height:1;font-variant-numeric:tabular-nums}
+.cell .t{font-weight:600;font-size:.9rem}
+.cell .s{font-size:.72rem;color:var(--muted)}
+.c1{background:var(--q1-bg)} .c1 .n{color:var(--q1)}
+.c2{background:var(--q2-bg)} .c2 .n{color:var(--q2)}
+.c3{background:var(--q3-bg)} .c3 .n{color:var(--q3)}
+.c4{background:var(--q4-bg)} .c4 .n{color:var(--q4)}
+
+/* Sections */
+section.q{background:var(--surface);border-radius:12px;border:1px solid var(--line);overflow:hidden;scroll-margin-top:12px}
+.qh{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.qh h2{font-family:var(--display);font-size:1.05rem;margin:0;font-weight:700}
+.qh .hint{margin-left:auto;font-size:.75rem;color:var(--muted);text-align:right}
+ul{list-style:none;margin:0;padding:0}
+.task{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;border-top:1px solid var(--line)}
+.task:first-child{border-top:0}
+.chk{flex:none;width:24px;height:24px;border-radius:50%;border:2px solid var(--line);background:transparent;cursor:pointer;margin-top:1px;display:grid;place-items:center;color:var(--surface)}
+.task.done .chk{background:var(--muted);border-color:var(--muted)}
+.task .txt{flex:1;min-width:0;overflow-wrap:anywhere}
+.task.done .txt{text-decoration:line-through;color:var(--muted)}
+.tag{display:inline-block;font-size:.68rem;padding:1px 6px;border-radius:999px;background:var(--q4-bg);color:var(--muted);margin-left:6px;vertical-align:1px}
+.acts{display:flex;gap:4px;flex:none}
+.acts button{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:8px;font:inherit;font-size:.75rem;padding:4px 8px;cursor:pointer}
+.empty{padding:14px;color:var(--muted);font-size:.85rem}
+.movebar{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px 48px}
+.movebar button{border:0;border-radius:999px;font:inherit;font-size:.75rem;padding:5px 10px;cursor:pointer;color:var(--fg)}
+
+/* Barre de saisie */
+.add{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);
+  padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));z-index:5}
+.add form{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.row{display:flex;gap:8px}
+#new{flex:1;min-width:0;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.btn{border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:600;cursor:pointer;background:var(--fg);color:var(--bg)}
+.toggles{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tg{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;cursor:pointer}
+.tg[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.dest{font-size:.8rem;color:var(--muted);margin-left:auto}
+.dest b{color:var(--fg)}
+
+.tools{display:flex;flex-wrap:wrap;gap:8px}
+.tools button{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:8px;padding:7px 11px;font:inherit;font-size:.82rem;cursor:pointer}
+.note{font-size:.8rem;color:var(--muted);margin:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.panel textarea{width:100%;min-height:110px;font:12px/1.4 ui-monospace,monospace;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--bg);color:var(--fg)}
+.banner{background:var(--q3-bg);border-radius:10px;padding:10px 12px;font-size:.85rem;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.banner button{border:0;background:var(--fg);color:var(--bg);border-radius:8px;padding:6px 10px;font:inherit;font-size:.8rem;cursor:pointer}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(130px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:.85rem;z-index:6}
+@media (prefers-reduced-motion: no-preference){.cell{transition:transform .12s}.cell:active{transform:scale(.97)}}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <h1>Orga Alexis</h1>
+    <span class="date" id="today"></span>
+  </header>
+
+  <div class="banner" id="exBanner" hidden>
+    <span>Ce sont des tâches d'exemple pour te montrer le principe.</span>
+    <button type="button" id="clearEx">Effacer les exemples</button>
+  </div>
+
+  <div class="map" aria-label="Vue d'ensemble">
+    <span></span><span class="axis">Urgent</span><span class="axis">Pas urgent</span>
+    <span class="axis v">Important</span>
+    <button class="cell c1" data-go="1"><span class="n" id="n1">0</span><span class="t">Faire</span><span class="s">maintenant</span></button>
+    <button class="cell c2" data-go="2"><span class="n" id="n2">0</span><span class="t">Planifier</span><span class="s">bloquer un créneau</span></button>
+    <span class="axis v">Pas important</span>
+    <button class="cell c3" data-go="3"><span class="n" id="n3">0</span><span class="t">Déléguer</span><span class="s">confier à quelqu'un</span></button>
+    <button class="cell c4" data-go="4"><span class="n" id="n4">0</span><span class="t">Éliminer</span><span class="s">abandonner</span></button>
+  </div>
+
+  <div id="lists"></div>
+
+  <div class="tools">
+    <button type="button" id="purge">Retirer les tâches cochées</button>
+    <button type="button" id="saveBtn">Sauvegarder</button>
+    <button type="button" id="restoreBtn">Restaurer</button>
+  </div>
+  <div class="panel" id="panel" hidden>
+    <p class="note" id="panelNote"></p>
+    <textarea id="dump" aria-label="Données de sauvegarde"></textarea>
+    <div class="tools"><button type="button" id="panelAct"></button><button type="button" id="panelClose">Fermer</button></div>
+  </div>
+  <p class="note">Tes tâches sont enregistrées uniquement dans ce téléphone, rien n'est envoyé ailleurs.</p>
+</div>
+
+<div class="add">
+  <form id="f">
+    <div class="toggles">
+      <button type="button" class="tg" id="tU" aria-pressed="true">Urgent</button>
+      <button type="button" class="tg" id="tI" aria-pressed="true">Important</button>
+      <span class="dest">→ <b id="destName">Faire</b></span>
+    </div>
+    <div class="row">
+      <input id="new" type="text" placeholder="Nouvelle tâche…" autocomplete="off" enterkeyhint="done">
+      <button class="btn" type="submit">Ajouter</button>
+    </div>
+  </form>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const Q={
+  1:{name:"Faire",hint:"Urgent et important",cls:"q1"},
+  2:{name:"Planifier",hint:"Important, pas urgent",cls:"q2"},
+  3:{name:"Déléguer",hint:"Urgent, pas important",cls:"q3"},
+  4:{name:"Éliminer",hint:"Ni urgent ni important",cls:"q4"}
+};
+const KEY="eisenhower-v1";
+const examples=[
+  {q:1,t:"Rendre le dossier sécurité avant ce soir"},
+  {q:1,t:"Rappeler le fournisseur pour la livraison"},
+  {q:2,t:"Préparer la formation de l'équipe"},
+  {q:2,t:"Faire le point annuel des compétences"},
+  {q:3,t:"Commander les fournitures de bureau"},
+  {q:4,t:"Trier les vieux mails"}
+].map((x,i)=>({id:"ex"+i,q:x.q,t:x.t,done:false,ex:true,d:Date.now()}));
+
+let tasks=[], openMove=null, u=true, imp=true;
+function load(){try{const s=localStorage.getItem(KEY);if(s){tasks=JSON.parse(s);return}}catch(e){}tasks=examples.slice()}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(tasks))}catch(e){toast("Impossible d'enregistrer sur ce téléphone")}}
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)}
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function quad(){return u&&imp?1:!u&&imp?2:u&&!imp?3:4}
+
+function render(){
+  for(const k of [1,2,3,4]) document.getElementById("n"+k).textContent=tasks.filter(t=>t.q==k&&!t.done).length;
+  document.getElementById("exBanner").hidden=!tasks.some(t=>t.ex);
+  let h="";
+  for(const k of [1,2,3,4]){
+    const list=tasks.filter(t=>t.q==k).sort((a,b)=>a.done-b.done);
+    h+=`<section class="q" id="sec${k}"><div class="qh"><span class="dot" style="background:var(--${Q[k].cls})"></span><h2>${Q[k].name}</h2><span class="hint">${Q[k].hint}</span></div><ul>`;
+    if(!list.length) h+=`<li class="empty">Rien ici pour l'instant.</li>`;
+    for(const t of list){
+      h+=`<li><div class="task${t.done?" done":""}">
+        <button class="chk" data-a="tog" data-id="${t.id}" aria-label="${t.done?"Décocher":"Cocher"}">${t.done?"✓":""}</button>
+        <span class="txt">${esc(t.t)}${t.ex?'<span class="tag">exemple</span>':""}</span>
+        <span class="acts"><button data-a="mv" data-id="${t.id}">Déplacer</button><button data-a="del" data-id="${t.id}" aria-label="Supprimer">✕</button></span>
+      </div>`;
+      if(openMove===t.id){
+        h+=`<div class="movebar">`+[1,2,3,4].filter(x=>x!=k).map(x=>`<button data-a="to" data-q="${x}" data-id="${t.id}" style="background:var(--${Q[x].cls}-bg)">→ ${Q[x].name}</button>`).join("")+`</div>`;
+      }
+      h+=`</li>`;
+    }
+    h+=`</ul></section>`;
+  }
+  document.getElementById("lists").innerHTML=h;
+}
+
+document.getElementById("lists").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-a]");if(!b)return;
+  const t=tasks.find(x=>x.id===b.dataset.id);if(!t)return;
+  const a=b.dataset.a;
+  if(a==="tog"){t.done=!t.done}
+  else if(a==="del"){tasks=tasks.filter(x=>x!==t);toast("Tâche supprimée")}
+  else if(a==="mv"){openMove=openMove===t.id?null:t.id;render();return}
+  else if(a==="to"){t.q=+b.dataset.q;openMove=null;toast("Déplacée dans "+Q[t.q].name)}
+  save();render();
+});
+document.querySelectorAll("[data-go]").forEach(c=>c.addEventListener("click",()=>document.getElementById("sec"+c.dataset.go).scrollIntoView({behavior:"smooth"})));
+
+function syncToggles(){
+  document.getElementById("tU").setAttribute("aria-pressed",u);
+  document.getElementById("tI").setAttribute("aria-pressed",imp);
+  document.getElementById("destName").textContent=Q[quad()].name;
+}
+document.getElementById("tU").onclick=()=>{u=!u;syncToggles()};
+document.getElementById("tI").onclick=()=>{imp=!imp;syncToggles()};
+document.getElementById("f").addEventListener("submit",e=>{
+  e.preventDefault();const i=document.getElementById("new");const v=i.value.trim();if(!v)return;
+  tasks.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),q:quad(),t:v,done:false,d:Date.now()});
+  i.value="";save();render();toast("Ajoutée dans "+Q[quad()].name);
+});
+document.getElementById("clearEx").onclick=()=>{tasks=tasks.filter(t=>!t.ex);save();render()};
+document.getElementById("purge").onclick=()=>{const n=tasks.filter(t=>t.done).length;tasks=tasks.filter(t=>!t.done);save();render();toast(n?n+" tâche(s) retirée(s)":"Aucune tâche cochée")};
+
+const panel=document.getElementById("panel"),dump=document.getElementById("dump"),pAct=document.getElementById("panelAct");
+let mode="";
+document.getElementById("saveBtn").onclick=()=>{
+  mode="save";panel.hidden=false;dump.value=JSON.stringify(tasks);
+  document.getElementById("panelNote").textContent="Copie ce texte et colle-le dans une note ou un mail à toi-même. Il te servira si tu changes de téléphone.";
+  pAct.textContent="Copier";
+};
+document.getElementById("restoreBtn").onclick=()=>{
+  mode="restore";panel.hidden=false;dump.value="";
+  document.getElementById("panelNote").textContent="Colle ici le texte de sauvegarde, puis appuie sur Restaurer. Cela remplace la liste actuelle.";
+  pAct.textContent="Restaurer";
+};
+pAct.onclick=()=>{
+  if(mode==="save"){
+    navigator.clipboard.writeText(dump.value).then(()=>toast("Copié")).catch(()=>{dump.select();toast("Sélectionné : fais Copier")});
+  }else{
+    try{const d=JSON.parse(dump.value);if(!Array.isArray(d))throw 0;tasks=d;save();render();panel.hidden=true;toast("Liste restaurée")}
+    catch(e){toast("Texte non reconnu : colle la sauvegarde complète")}
+  }
+};
+document.getElementById("panelClose").onclick=()=>panel.hidden=true;
+
+document.getElementById("today").textContent=new Date().toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});
+load();syncToggles();render();
+</script>
+
+</body>
+</html>
